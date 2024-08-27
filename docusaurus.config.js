@@ -86,7 +86,7 @@ const config = {
           },
           {
             href: 'https://github.com/ethereum/execution-apis',
-            label: 'Execution-Api GitHub',
+            label: 'GitHub',
             position: 'right',
           },
         ],
