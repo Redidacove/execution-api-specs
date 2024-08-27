@@ -13,14 +13,13 @@ const config = {
   favicon: 'img/ethereum-icon.png',
 
   // Set the production url of your site here
-  url: 'https://ethereum-execution-api-specs.netlify.app',
-  // Set the /<baseUrl>/ pathname under which your site is served
-  // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/',
+  url: 'https://Redidacove.github.io',
+  trailingSlash: false,
+  baseUrl: '/execution-api-specs/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'redidacove', // Usually your GitHub org/user name.
+  organizationName: 'Redidacove', // Usually your GitHub org/user name.
   projectName: 'Execution-Api-docs', // Usually your repo name.
   deploymentBranch: 'main',
   onBrokenLinks: 'throw',
@@ -33,7 +32,6 @@ const config = {
     defaultLocale: 'en',
     locales: ['en'],
   },
-  trailingSlash: true,
 
   presets: [
     [
