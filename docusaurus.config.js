@@ -1,8 +1,6 @@
 // @ts-check
 // `@type` JSDoc annotations allow editor autocompletion and type checking
 // (when paired with `@ts-check`).
-// There are various equivalent ways to declare your Docusaurus config.
-// See: https://docusaurus.io/docs/api/docusaurus-config
 
 import { themes as prismThemes } from 'prism-react-renderer';
 
@@ -18,7 +16,6 @@ const config = {
   baseUrl: '/execution-api-specs/',
 
   // GitHub pages deployment config.
-  // If you aren't using GitHub pages, you don't need these.
   organizationName: 'Redidacove', // Usually your GitHub org/user name.
   projectName: 'Execution-Api-docs', // Usually your repo name.
   deploymentBranch: 'main',
@@ -41,9 +38,7 @@ const config = {
         docs: {
           routeBasePath: '/',
           sidebarPath: './sidebars.js',
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: 'https://github.com/Redidacove/Execution-Api-docs/edit/main/',
+          editUrl: 'https://github.com/ethereum/execution-apis/edit/tree/main/docs/',
           admonitions: {
             keywords: [
               "info",
@@ -75,15 +70,12 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      // Replace with your project's social card
       image: 'img/eth-logo.png',
       navbar: {
         title: 'Ethereum',
         logo: {
           alt: 'Ethereum',
           src: 'img/eth-logo.png',
-          // width: 45,
-          // height: 150,
         },
         items: [
           {
@@ -93,8 +85,8 @@ const config = {
             label: 'Documentation',
           },
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
+            href: 'https://github.com/ethereum/execution-apis',
+            label: 'Execution-Api GitHub',
             position: 'right',
           },
         ],
@@ -107,7 +99,7 @@ const config = {
             items: [
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/ethereum-org',
               },
               {
                 label: 'Twitter',
@@ -119,8 +111,12 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/Redidacove/Execution-Api-docs',
+                label: 'Documentation GitHub',
+                href: 'https://github.com/Redidacove/execution-api-specs',
+              },
+              {
+                label: 'Ethereum Website',
+                href: 'https://ethereum.org/en/',
               },
             ],
           },
@@ -130,7 +126,6 @@ const config = {
       prism: {
         theme: prismThemes.github,
         darkTheme: prismThemes.dracula,
-        // additionalLanguages: ["bash", "json"],
       },
     }),
 };
