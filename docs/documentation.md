@@ -5,5 +5,4 @@ slug: "/"
 
 # Ethereum JSON-API Specification 
 
-A specification of the standard interface for Ethereum clients.
-
+A specification of the standard interface for Ethereum clients
