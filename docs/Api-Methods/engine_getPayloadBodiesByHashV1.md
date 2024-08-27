@@ -38,7 +38,7 @@ Given block hashes returns bodies of the corresponding execution payloads
 Name - Execution payload bodies
 ### `Array`
 `Object`
-- title - Execution payload bodies object V1
+#### title - Execution payload bodies object V1
 `properties`
 
 #### `transactions`

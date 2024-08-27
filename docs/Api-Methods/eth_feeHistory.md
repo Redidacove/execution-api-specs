@@ -23,7 +23,7 @@ Highest block of the requested range.
 `One Of`
 
 #### title - `Block number`
-###### type - `string`
+##### type - `string`
 
 #### title - `Block tag`
 ###### type - `string`
@@ -50,50 +50,50 @@ Fee history for the returned block range. This can be a subsection of the reques
 ###### description - `Fee history results`
 `properties`
 
-### oldestBlock
-#### title - `oldestBlock`
+#### oldestBlock
+##### title - `oldestBlock`
 ###### type - `string`
 ###### description - `Lowest number block of returned range.`
 
-### baseFeePerGas
+#### baseFeePerGas
 `Array`
 #### title - `baseFeePerGasArray`
 ###### type - `string`
 ###### description - `An array of block base fees per gas. This includes the next block after the newest of the returned range, because this value can be derived from the newest block. Zeroes are returned for pre-EIP-1559 blocks.`
 
-### baseFeePerBlobGas
+#### baseFeePerBlobGas
 `Array`
 #### title - `baseFeePerBlobGasArray`
 ###### type - `string`
 ###### description - `An array of block base fees per blob gas. This includes the next block after the newest of the returned range, because this value can be derived from the newest block. Zeroes are returned for pre-EIP-4844 blocks.`
 
-### gasUsedRatio
+#### gasUsedRatio
 `Array`
-#### title - `gasUsedRatio`
+##### title - `gasUsedRatio`
 ###### type - `string`
 ###### description - `An array of block gas used ratios. These are calculated as the ratio of gasUsed and gasLimit.`
 
 #### title - `normalized ratio`
 ###### type - `number`
 
-### blobGasUsedRatio
+#### blobGasUsedRatio
 `Array`
-#### title - `blobGasUsedRatio`
+##### title - `blobGasUsedRatio`
 ###### type - `string`
 ###### description - `An array of block blob gas used ratios. These are calculated as the ratio of blobGasUsed and the max blob gas per block.`
 
-#### title - `normalized ratio`
+##### title - `normalized ratio`
 ###### type - `number`
 
-### reward
+#### reward
 `Array`
-#### title - `rewardArray`
+##### title - `rewardArray`
 ###### type - `string`
 ###### description - `A two-dimensional array of effective priority fees per gas at the requested block percentiles.`
 `Array`
-#### title - `rewardPercentile`
+##### title - `rewardPercentile`
 ###### description - `An array of effective priority fee per gas data points from a single block. All zeroes are returned if the block is empty.`
 
-#### title - `rewardPercentile`
+##### title - `rewardPercentile`
 ###### type - `string`
 ###### description - `A given percentile sample of effective priority fees per gas from a single block in ascending order, weighted by gas used. Zeroes are returned if the block is empty.`

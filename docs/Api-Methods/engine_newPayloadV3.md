@@ -229,13 +229,13 @@ Obtains execution payload from payload build process
 
 ## Result
 
-Name - Payload status
+### Name - Payload status
 
 ### `schema`
 
 `Object`
 
-- title - `Payload status object deprecating INVALID_BLOCK_HASH status`
+#### title - `Payload status object deprecating INVALID_BLOCK_HASH status`
   `propeties`
 
 #### status

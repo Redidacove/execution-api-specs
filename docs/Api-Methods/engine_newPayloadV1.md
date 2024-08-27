@@ -7,10 +7,10 @@ sidebar_position: 21
 Runs execution payload validation
 
 ## Parameter Names
-Name - Execution payload 
+### Name - Execution payload 
 `Schema`
 `Object`
-- title - Execution payload object V1
+#### title - Execution payload object V1
 `properties`
 
 #### parentHash
@@ -100,10 +100,10 @@ Name - Execution payload
 ```
 
 ## Result
-Name - Payload status 
+### Name - Payload status 
 ### `schema`
 `Object`
-- title - Payload status object V1
+#### title - Payload status object V1
 `propeties`
 #### status 
 ##### title - `Payload validation status`

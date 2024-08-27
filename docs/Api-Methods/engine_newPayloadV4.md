@@ -7,11 +7,11 @@ sidebar_position: 24
 Obtains execution payload from payload build process
 
 ## Parameter Names
-#### `executionPayload`
+### Name - executionPayload
 ##### `schema`
 
 `Object`
-- title - Execution payload object V4
+#### title - Execution payload object V4
 `properties`
 #### parentHash
 ##### title : `Parent block hash`
@@ -270,10 +270,10 @@ Obtains execution payload from payload build process
 ```
 
 ## Result
-Name - Payload status 
+### Name - Payload status 
 ### `schema`
 `Object`
-- title - `Payload status object deprecating INVALID_BLOCK_HASH status`
+#### title - `Payload status object deprecating INVALID_BLOCK_HASH status`
 `propeties`
 #### status 
 ##### title - `Payload validation status`

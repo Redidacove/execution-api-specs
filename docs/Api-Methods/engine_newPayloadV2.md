@@ -11,7 +11,7 @@ Obtains execution payload from payload build process
 #### `executionPayload`
 ##### One Of
 `Object`
-- title - Execution payload object V1
+#### title - Execution payload object V1
 `properties`
 #### parentHash
 ##### title : `Parent block hash`
@@ -71,7 +71,7 @@ Obtains execution payload from payload build process
 ##### type : `string`
 
 `Object`
-- title - Execution payload object V2
+#### title - Execution payload object V2
 `properties`
 #### parentHash
 ##### title : `Parent block hash`
@@ -203,10 +203,10 @@ Obtains execution payload from payload build process
 ```
 
 ## Result
-Name - Payload status 
+### Name - Payload status 
 ### `schema`
 `Object`
-- title - Payload status object V1
+#### title - Payload status object V1
 `propeties`
 #### status 
 ##### title - `Payload validation status`

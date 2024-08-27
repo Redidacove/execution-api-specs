@@ -6,10 +6,10 @@ sidebar_position: 29
 
 Returns the chain ID of the current network
 
-### Result
+## Result
 
-## Chain ID
+### Name- Chain ID
 
-### schema
+#### schema
 #### title - `hex encoded unsigned integer`
-#### type - `string`
+##### type - `string`

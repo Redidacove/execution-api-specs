@@ -44,127 +44,130 @@ Returns information about a block by hash.
 #### title - `Block object`
 `properties`
 
-#### hash
-##### title - `Hash`
+### hash
+#### title - `Hash`
 ##### type - `string`
 
-#### parentHash
-##### title - `Parent hash`
+### parentHash
+#### title - `Parent hash`
 ##### type - `string`
 
-#### sha3Uncles
-##### title - `Ommers hash`
+### sha3Uncles
+#### title - `Ommers hash`
 ##### type - `string`
 
 #### miner
-##### title - `Coinbase`
+#### title - `Coinbase`
 ##### type - `string`
 
-#### stateRoot
-##### title - `State root`
+### stateRoot
+#### title - `State root`
 ##### type - `string`
 
-#### transactionsRoot
-##### title - `Transactions root`
+### transactionsRoot
+#### title - `Transactions root`
 ##### type - `string`
 
-#### receiptsRoot
-##### title - `Receipts root`
+### receiptsRoot
+#### title - `Receipts root`
 ##### type - `string`
 
-#### logsBloom
-##### title - `Bloom filter`
+### logsBloom
+#### title - `Bloom filter`
 ##### type - `string`
 
-#### difficulty
-##### title - `Difficulty`
+### difficulty
+#### title - `Difficulty`
 ##### type - `string`
 
-#### number
-##### title - `Number`
+### number
+#### title - `Number`
 ##### type - `string`
 
-#### gasLimit
-##### title - `Gas limit`
+### gasLimit
+#### title - `Gas limit`
 ##### type - `string`
 
-#### gasUsed
-##### title - `Gas used`
+### gasUsed
+#### title - `Gas used`
 ##### type - `string`
 
-#### timestamp
-##### title - `Timestamp`
+### timestamp
+#### title - `Timestamp`
 ##### type - `string`
 
-#### extraData
-##### title : `Extra data`
+### extraData
+#### title : `Extra data`
 ##### type : `string`
 
-#### mixHash
-##### title : `Mix hash`
+### mixHash
+#### title : `Mix hash`
 ##### type : `string`
 
-#### nounce
-##### title - `Nounce`
+### nounce
+#### title - `Nounce`
 ##### type - `string`
 
-#### totalDifficulty
-##### title - `Total difficulty`
+### totalDifficulty
+#### title - `Total difficulty`
 ##### type - `string`
 
-#### baseFeePerGas
-##### title : `Base fee per gas`
+### baseFeePerGas
+#### title : `Base fee per gas`
 ##### type : `string`
 
-#### withdrawalRoot
-##### title - `Withdrawal root`
+### withdrawalRoot
+#### title - `Withdrawal root`
 ##### type - `string`
 
-#### blobGasUsed
-##### title - `Blob gas used`
+### blobGasUsed
+#### title - `Blob gas used`
 ##### type - `string`
 
-#### excessBlobGas
-##### title - `Excess blob gas`
+### excessBlobGas
+#### title - `Excess blob gas`
 ##### type - `string`
 
-#### parentBeaconBlockRoot
-##### title - `Parent Beacon Block Root`
+### parentBeaconBlockRoot
+#### title - `Parent Beacon Block Root`
 ##### type - `string`
 
-#### size
-##### title - `Block size`
+### size
+#### title - `Block size`
 ##### type - `string`
 
-#### transactions
+### transactions
 `Array`
-##### title : `Transactions`
-##### title : `hex encoded bytes`
+#### title : `Transactions`
+#### title : `hex encoded bytes`
 ##### type : `string`
 
-#### withdrawals
+### withdrawals
 `Array`
-##### title : `Withdrawals`
+#### title : `Withdrawals`
 `Object`
-##### title : `Validator withdrawal`
+#### title : `Validator withdrawal`
 ##### type : `string`
 `properties`
 
-#### index
-##### title : `Withdrawal index`
+### index
+#### title : `Withdrawal index`
 ##### type : `string`
-#### validatorindex
-##### title : `Validator index`
+
+### validatorindex
+#### title : `Validator index`
 ##### type : `string`
-#### address
-##### title : `Withdrawal address`
+
+### address
+#### title : `Withdrawal address`
 ##### type : `string`
-#### amount
-##### title : `Withdrawal amount`
+
+### amount
+#### title : `Withdrawal amount`
 ##### type : `string`
 
 ### uncles 
 `Array`
-##### title - `32 byte hex value`
+#### title - `32 byte hex value`
 ##### type - `string`
 

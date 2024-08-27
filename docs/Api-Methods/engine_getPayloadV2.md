@@ -31,7 +31,7 @@ Obtains execution payload from payload build process
 ## Result
 `Schema`
 
-Name - Response object 
+### Name - Response object 
 ### schema
 #### Object
 #### properties
@@ -39,7 +39,7 @@ Name - Response object
 #### `executionPayload`
 ##### One Of
 `Object`
-- title - Execution payload object V1
+#### title - Execution payload object V1
 `properties`
 #### parentHash
 ##### title : `Parent block hash`
@@ -99,7 +99,7 @@ Name - Response object
 ##### type : `string`
 
 `Object`
-- title - Execution payload object V2
+#### title - Execution payload object V2
 `properties`
 #### parentHash
 ##### title : `Parent block hash`

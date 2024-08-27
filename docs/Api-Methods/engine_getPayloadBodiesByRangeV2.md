@@ -41,10 +41,10 @@ Given a range of block numbers returns bodies of the corresponding execution pay
 ## Result
 `Schema`
 
-Name - Execution payload bodies
+### Name - Execution payload bodies
 ### `Array`
 `Object`
-- title - Execution payload bodies object V2
+#### title - Execution payload bodies object V2
 `properties`
 
 #### `transactions`

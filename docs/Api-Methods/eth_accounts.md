@@ -9,7 +9,7 @@ Returns a list of addresses owned by client
 ### Result
 
 ## Parameter Name
-- Accounts
+### Accounts
 ### schema
 ### `Array`
 #### title - `Accounts`

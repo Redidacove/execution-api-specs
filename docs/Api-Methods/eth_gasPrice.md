@@ -12,5 +12,5 @@ Returns the current price per gas in wei.
 
 #### `schema`
 
-#### title - `Gas price`
+##### title - `Gas price`
 ###### type - `string`

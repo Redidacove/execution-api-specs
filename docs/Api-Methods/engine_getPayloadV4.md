@@ -29,7 +29,7 @@ Obtains execution payload from payload build process
 ```
 
 ## Result
-Name - Response object 
+### Name - Response object 
 ### schema
 
 #### Object
@@ -40,7 +40,7 @@ Name - Response object
 
 `Object`
 
-- title - Execution payload
+#### title - Execution payload
 
 `properties`
 

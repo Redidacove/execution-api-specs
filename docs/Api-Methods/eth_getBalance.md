@@ -10,7 +10,7 @@ Returns the balance of the account of given address.
 
 ### Name - Address
 
-#### title - `hex encoded address`
+##### title - `hex encoded address`
 ###### type - `string`
 
 ### Name - Block
@@ -36,5 +36,5 @@ Returns the balance of the account of given address.
 
 ### Name - Balance
 
-#### title - `hex encoded unsigned integer`
+##### title - `hex encoded unsigned integer`
 ###### type - `string`

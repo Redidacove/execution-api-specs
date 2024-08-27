@@ -9,14 +9,14 @@ Returns information about a block by hash.
 
 ### Name - Block hash
 
-#### title - `32 byte hex value`
+##### title - `32 byte hex value`
 ###### type - `string`
 
 ### Name - Hydrated transaction
 
 #### `schema`
 
-#### title - `hydrated`
+##### title - `hydrated`
 ###### type - `boolean`
 
 ## Result
@@ -25,133 +25,136 @@ Returns information about a block by hash.
 
 ### `schema`
 `One  Of`
-#### title - `Not Found(null)`
+##### title - `Not Found(null)`
 ###### type - `null`
 `Object`
-#### title - `Block object`
+##### title - `Block object`
 `properties`
 
 #### hash
 ##### title - `Hash`
-##### type - `string`
+###### type - `string`
 
 #### parentHash
 ##### title - `Parent hash`
-##### type - `string`
+###### type - `string`
 
 #### sha3Uncles
 ##### title - `Ommers hash`
-##### type - `string`
+###### type - `string`
 
 #### miner
 ##### title - `Coinbase`
-##### type - `string`
+###### type - `string`
 
 #### stateRoot
 ##### title - `State root`
-##### type - `string`
+###### type - `string`
 
 #### transactionsRoot
 ##### title - `Transactions root`
-##### type - `string`
+###### type - `string`
 
 #### receiptsRoot
 ##### title - `Receipts root`
-##### type - `string`
+###### type - `string`
 
 #### logsBloom
 ##### title - `Bloom filter`
-##### type - `string`
+###### type - `string`
 
 #### difficulty
 ##### title - `Difficulty`
-##### type - `string`
+###### type - `string`
 
 #### number
 ##### title - `Number`
-##### type - `string`
+###### type - `string`
 
 #### gasLimit
 ##### title - `Gas limit`
-##### type - `string`
+###### type - `string`
 
 #### gasUsed
 ##### title - `Gas used`
-##### type - `string`
+###### type - `string`
 
 #### timestamp
 ##### title - `Timestamp`
-##### type - `string`
+###### type - `string`
 
 #### extraData
 ##### title : `Extra data`
-##### type : `string`
+###### type : `string`
 
 #### mixHash
 ##### title : `Mix hash`
-##### type : `string`
+###### type : `string`
 
 #### nounce
 ##### title - `Nounce`
-##### type - `string`
+###### type - `string`
 
 #### totalDifficulty
 ##### title - `Total difficulty`
-##### type - `string`
+###### type - `string`
 
 #### baseFeePerGas
 ##### title : `Base fee per gas`
-##### type : `string`
+###### type : `string`
 
 #### withdrawalRoot
 ##### title - `Withdrawal root`
-##### type - `string`
+###### type - `string`
 
 #### blobGasUsed
 ##### title - `Blob gas used`
-##### type - `string`
+###### type - `string`
 
 #### excessBlobGas
 ##### title - `Excess blob gas`
-##### type - `string`
+###### type - `string`
 
 #### parentBeaconBlockRoot
 ##### title - `Parent Beacon Block Root`
-##### type - `string`
+###### type - `string`
 
 #### size
 ##### title - `Block size`
-##### type - `string`
+###### type - `string`
 
 #### transactions
 `Array`
 ##### title : `Transactions`
 ##### title : `hex encoded bytes`
-##### type : `string`
+###### type : `string`
 
 #### withdrawals
 `Array`
 ##### title : `Withdrawals`
 `Object`
 ##### title : `Validator withdrawal`
-##### type : `string`
+###### type : `string`
 `properties`
 
 #### index
 ##### title : `Withdrawal index`
-##### type : `string`
+###### type : `string`
+
 #### validatorindex
 ##### title : `Validator index`
-##### type : `string`
+###### type : `string`
+
 #### address
 ##### title : `Withdrawal address`
-##### type : `string`
+###### type : `string`
+
 #### amount
 ##### title : `Withdrawal amount`
-##### type : `string`
+###### type : `string`
 
 ### uncles 
 `Array`
 ##### title - `32 byte hex value`
-##### type - `string`
+###### type - `string`
 

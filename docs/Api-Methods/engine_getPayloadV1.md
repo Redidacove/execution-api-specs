@@ -31,10 +31,10 @@ Obtains execution payload from payload build process
 ## Result
 `Schema`
 
-Name - Execution payload 
+### Name - Execution payload 
 ### `Array`
 `Object`
-- title - Execution payload object V1
+#### title - Execution payload object V1
 `properties`
 
 #### parentHash

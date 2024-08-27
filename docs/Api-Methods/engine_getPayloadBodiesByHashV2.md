@@ -35,10 +35,10 @@ Given block hashes returns bodies of the corresponding execution payloads
 ## Result
 `Schema`
 
-Name - Execution payload bodies
+### Name - Execution payload bodies
 ### `Array`
 `Object`
-- title - Execution payload bodies object V2
+#### title - Execution payload bodies object V2
 `properties`
 
 #### `transactions`

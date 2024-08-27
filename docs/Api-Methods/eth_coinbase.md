@@ -6,10 +6,10 @@ sidebar_position: 30
 
 Returns the client coinbase address
 
-### Result
+## Result
 
-## Coinbase address
+### Coinbase address
 
-### schema
-#### title - `hex encoded address`
-#### type - `string`
+#### schema
+##### title - `hex encoded address`
+###### type - `string`

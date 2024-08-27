@@ -9,7 +9,7 @@ Returns the number of most recent block.
 ### Result
 
 ## Parameter Name
-- Block number
+### Block number
 ### schema
 #### title - `hex encoded unsigned integer`
 #### type - `string`

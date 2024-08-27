@@ -59,7 +59,7 @@ Updates the forkchoice state
 
 #### `withdrawals`
 `Array`
-Withdrawals
+##### Withdrawals
 `Object`
 ##### title : `Withdwaral object V1`
 `properties`
